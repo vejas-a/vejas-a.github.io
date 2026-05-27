@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIS Projektų Portalas | Vėjas Anuškevičius</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Top bar -->
+
+    <header class="header">
+        <nav class="navbar">
+
+            <div class="logo">
+                <span class="logo-dot"></span>
+                Vilnius
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#pradzia">Pradžia</a></li>
+                <li><a href="#apie">Apie</a></li>
+                <li><a href="#projektai">Žemėlapiai</a></li>
+                <li><a href="#kontaktai">Kontaktai</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Hero -->
+
+    <section id="pradzia" class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-subtitle">
+                Vilniaus GIS
+            </p>
+
+            <h1>
+                Vilniaus miesto žemėlapių platforma
+            </h1>
+
+            <p class="hero-description">
+                Interaktyvūs GIS žemėlapiai, GIS paslaugos ir erdviniai duomenys apie Vilniaus miestą.
+            </p>
+
+            <a href="#projektai" class="hero-button">
+                Žemėlapiai
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Apie -->
+
+    <section id="apie" class="about">
+
+        <div class="section-title">
+            <h2>Apie svetainę</h2>
+            <p>
+                Šioje svetainėje rasite interaktyvius GIS projektus, 
+                sukurtus naudojant kepler.gl, Geoportal WMS, QGIS, QGIS Cloud ir ArcGIS Online platformas.
+                Svetainė yra sukurta mokymosi tikslais, kaip baigiamasis kurso „Interneto technologijos ir GIS“ projektas.
+                Duomenys šioje svetainėje gali būti netikslūs ir yra naudojami tik demonstraciniais tikslais.
+            </p>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-card">
+                <h3>Kepler.gl</h3>
+                <p>
+                    Interaktyvūs analitiniai žemėlapiai su duomenų vizualizacija.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>Geoportal WMS</h3>
+                <p>
+                    WMS sluoksnių integracija naudojant QGIS Cloud ir teminiai žemėlapiai.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>ArcGIS Online</h3>
+                <p>
+                    Instant App ir Survey123 aplikacijos duomenų peržiūrai ir rinkimui.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Žemėlapiai -->
+
+    <section id="projektai" class="projects">
+
+        <div class="section-title">
+            <h2>Žemėlapiai</h2>
+            <p>
+                Vilniaus miesto interaktyvių žemėlapių paslaugos.
+            </p>
+        </div>
+
+        <!-- Žemėlapis 1 kepler.gl -->
+
+        <div class="project-card">
+
+            <div class="project-info">
+                <span class="project-type">Kepler.gl</span>
+
+                <h3>Gyventojų surašymas</h3>
+
+                <p>
+                    Interaktyvus žemėlapis vaizduojantis Vilniaus miesto
+                     gyventojų surašymo duomenis pagal pastatus.
+                </p>
+
+                <a href="1_praktinis/map_1.html" target="_blank" class="project-button">
+                    Atidaryti žemėlapį
+                </a>
+            </div>
+
+            <div class="project-preview">
+    <img src="img/kepler1.png" alt="Kepler žemėlapis">
+</div>
+
+        </div>
+
+        <!-- Žemėlapis 2 kepler.gl -->
+
+        <div class="project-card reverse">
+
+            <div class="project-preview">
+    <img src="img/kepler2.png" alt="Kepler žemėlapis">
+</div>
+
+
+            <div class="project-info">
+                <span class="project-type">Kepler.gl</span>
+
+                <h3>Viešojo transporto prieinamumas</h3>
+
+                <p>
+                    Interaktyvus žemėlapis vaizduojantis viešojo transporto prieinamumą 
+                    pagal Vilniaus miesto seniūnijas.
+                </p>
+
+                <a href="1_praktinis/map_2.html" target="_blank" class="project-button">
+                    Atidaryti žemėlapį
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Žemėlapis 3 kepler.gl -->
+
+        <div class="project-card">
+
+            <div class="project-info">
+                <span class="project-type">Kepler.gl</span>
+
+                <h3>Pastatų statybos metai</h3>
+
+                <p>
+                    Interaktyvus žemėlapis vaizduojantis Vilniaus miesto raidą, 
+                    pastatų statybos metus pagal seniūnijas.
+                </p>
+
+                <a href="1_praktinis/map_3.html" target="_blank" class="project-button">
+                    Atidaryti žemėlapį
+                </a>
+            </div>
+
+            <div class="project-preview">
+    <img src="img/kepler3.png" alt="Kepler žemėlapis">
+</div>
+
+        </div>
+
+        <!-- Žemėlapis arcgis online  -->
+
+        <div class="project-card">
+
+            <div class="project-info">
+                <span class="project-type">ArcGIS Online</span>
+
+                <h3>Investicijų žemėlapis</h3>
+
+                <p>
+                    Interaktyvus žemėlapis skirtas naujų nekilnojamo turto
+                     investicijų Vilniaus mieste vizualizavimui ir įvedimui.
+                </p>
+
+                <a href="3_praktinis/pranesimu_perziura.html" target="_blank" class="project-button">
+                    Atidaryti žemėlapį
+                </a>
+            </div>
+
+            <div class="project-preview">
+    <img src="img/arcgis.png" alt="ArcGIS žemėlapis">
+</div>
+
+        </div>
+
+<!-- Žemėlapis 1 geoportal -->
+
+<div class="project-card reverse">
+
+    <div class="project-preview">
+        <img src="img/qgis1.png" alt="QGIS žemėlapis">
+    </div>
+
+    <div class="project-info">
+        <span class="project-type">Geoportal WMS</span>
+
+        <h3>Gyvenamieji pastatai</h3>
+
+        <p>
+            Vilniaus miesto gyvenamųjų pastatų žemėlapis 
+            su vandens telkinių apsaugos zonomis ir valstybinės reikšmės kelių duomenimis.
+        </p>
+
+        <a href="2_praktinis/map.html" target="_blank" class="project-button">
+            Atidaryti žemėlapį
+        </a>
+    </div>
+
+</div>
+
+<!-- Žemėlapis 2 geoportal -->
+
+<div class="project-card">
+
+    <div class="project-info">
+        <span class="project-type">Geoportal WMS</span>
+
+        <h3>Viešojo transporto stotelės</h3>
+
+        <p>
+            Vilniaus miesto viešojo transporto stotelių žemėlapis su 
+            stotelių tipo ir kelių triukšmo lygio duomenimis.
+        </p>
+
+        <a href="2_praktinis/map2.html" target="_blank" class="project-button">
+            Atidaryti žemėlapį
+        </a>
+    </div>
+
+    <div class="project-preview">
+        <img src="img/qgis2.png" alt="QGIS žemėlapis">
+    </div>
+
+</div>
+
+    </section>
+
+    <!-- Kontaktai -->
+
+    <section id="kontaktai" class="contact-banner">
+
+        <div class="contact-content">
+
+            <h2>Susisiekime</h2>
+
+            <p>
+                Jeigu turtite klausimų, pasiūlymų ar norite pasidalinti 
+                atsiliepimu apie svetainę, susisiekite.
+            </p>
+
+            <a href="kontaktai.html" class="hero-button">
+                Kontaktai
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div>
+                <h3>Projektas</h3>
+
+                <p>
+                    Vilniaus universiteto Kartografijos ir GIS studijų, kurso 
+                    „Interneto technologijos ir geografinės informacijos sistemos“ projektas. 
+                    Interaktyvūs žemėlapiai skirti Vilniaus miesto erdvinių duomenų vizualizavimui ir analizei.
+                    Svetainė sukurta mokymosi tikslais.
+                </p>
+            </div>
+
+            <div>
+                <h3>Naudotos technologijos</h3>
+
+                <ul>
+                    <li>HTML, CSS</li>
+                    <li>ArcGIS Online</li>
+                    <li>Kepler.gl</li>
+                    <li>QGIS, QGIS Cloud</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Nuorodos</h3>
+
+                <ul>
+                    <li><a href="https://github.com/vejas-a" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.geoportal.lt/" target="_blank">Geoportal</a></li>
+                    <li><a href="https://www.arcgis.com/" target="_blank">ArcGIS</a></li>
+                    <li><a href="https://www.vu.lt/" target="_blank">Vilniaus universitetas</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Vėjas Anuškevičius | VU, CHGF, Kartografija ir GIS, III kursas
+        </div>
+
+    </footer>
+
+</body>
+</html>
